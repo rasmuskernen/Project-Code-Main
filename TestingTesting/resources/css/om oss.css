@@ -62,17 +62,19 @@ img {
     border-radius: 20px;
     
 }
+
 .om-oss {
     text-align:center;
     font-size: 100px;
     
 }
+
 .tech {
     font-size: 60px;
     text-align:center;
     text-decoration: underline #28606B;
-    text-decoration:
 }
+
 /* beskivningar */
 li, ul {
     font-size: 30px;
