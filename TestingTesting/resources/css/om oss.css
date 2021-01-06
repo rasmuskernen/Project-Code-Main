@@ -1,15 +1,3 @@
-/*Övergripande*/
-a {
-    text-decoration: none;
-    color: rgb(65, 65, 65);
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #b6b6b6;
-}
-
-
 /*Header*/
 header {
     font-family: Ubuntu;
@@ -18,6 +6,16 @@ header {
     width: 100%;
     z-index: 20;
     background-color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #b6b6b6;
 }
 
 .flex-container {
@@ -32,6 +30,10 @@ header {
 
 .flex-container a {
     margin-right: 30px;
+}
+
+.headerbg {
+    height: 105px;
 }
 
 /* intro och första grejerna */
