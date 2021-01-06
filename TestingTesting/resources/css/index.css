@@ -29,7 +29,92 @@ header {
     padding: 10px;
     transition: .3s ease-in-out;
 }
+.topbanner {
+    font-size: 100px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../../img/test_bg.png);
+}
+
+.loginbox{
+    width: 400px;
+    height: 490px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 5%;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 37%;
+} 
+
+.loginbox p{
+    text-align: left;
+    margin: 0;
+    top: 50px;
+    padding: 0;
+    font-size: 13px;
+}
+
+.loginbox input{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    background-color: rgb(245, 245, 245);
+    border-color: rgba(255, 185, 123, 0.281);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    text-indent: 5%;
+    border-width: 1px;
+}
+
+.glomt_losenord a{
+    font-size: 13px;
+    color: rgb(253, 167, 92);
+}
+
+.loginbox input[type="submit"]{
+    background-color: rgba(250, 152, 67);
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    background-color: rgb(253, 167, 92);
+}
 .flex-container a {
     margin-right: 30px;
 }
