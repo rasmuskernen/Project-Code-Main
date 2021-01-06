@@ -1,16 +1,3 @@
-
-/*Övergripande*/
-a {
-    text-decoration: none;
-    color: rgb(65, 65, 65);
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #b6b6b6;
-}
-
-
 /*Header*/
 header {
     font-family: Ubuntu;
@@ -19,6 +6,16 @@ header {
     width: 100%;
     z-index: 20;
     background-color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: #b6b6b6;
 }
 
 .flex-container {
@@ -35,6 +32,9 @@ header {
     margin-right: 30px;
 }
 
+.headerbg {
+    height: 105px;
+}
 
 /* intro och första grejerna */
 body {
@@ -62,17 +62,19 @@ img {
     border-radius: 20px;
     
 }
+
 .om-oss {
     text-align:center;
     font-size: 100px;
     
 }
+
 .tech {
     font-size: 60px;
     text-align:center;
     text-decoration: underline #28606B;
-    text-decoration:
 }
+
 /* beskivningar */
 li, ul {
     font-size: 30px;
