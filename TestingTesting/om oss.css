@@ -1,3 +1,41 @@
+
+/*Övergripande*/
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b6b6b6;
+}
+
+
+/*Header*/
+header {
+    font-family: Ubuntu;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+.flex-container a {
+    margin-right: 30px;
+}
+
+
 /* intro och första grejerna */
 body {
     background-color: #9FE1EE;
