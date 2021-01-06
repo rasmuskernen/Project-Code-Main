@@ -1,0 +1,95 @@
+
+/*Övergripande*/
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #b6b6b6;
+}
+
+
+/*Header*/
+header {
+    font-family: Ubuntu;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: #ffffff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+.flex-container a {
+    margin-right: 30px;
+}
+
+
+/* intro och första grejerna */
+body {
+    background-color: #9FE1EE;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav {
+    width:100%;
+    height: 80px;
+    border: 3px solid #28606B;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+    width: px;
+    margin-left: 350px;
+    border: 10px solid #28606B;
+    border-radius: 20px;
+    
+}
+.om-oss {
+    text-align:center;
+    font-size: 100px;
+    
+}
+.tech {
+    font-size: 60px;
+    text-align:center;
+    text-decoration: underline #28606B;
+    text-decoration:
+}
+/* beskivningar */
+li, ul {
+    font-size: 30px;
+    margin-left: 400px;
+}
+p {
+    font-size: 30px;
+    text-align: center;  
+}
+
+.rasmus-rubrik {
+    font-size: 60px;
+    text-align:center;
+}
+
+ul {
+    border-bottom: 3px solid #28606B;
+    width: 1050px;
+}
+
