@@ -38,15 +38,15 @@ header a:hover {
 
 /* intro och första grejerna */
 body {
-    background-color: #9FE1EE;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: #050A30;
+    font-family: open-sans;
+    font-weight: bold;
 }
 
 .footer12 {
-    width:100%;
+    width:98%;
     height: 80px;
-    border: 3px solid #28606B;
+    border: 3px solid #050A30;
     margin-bottom: 20px;
     font-weight: 700;
     text-align: center;
@@ -54,9 +54,11 @@ body {
     background-color: white;
     border-radius: 20px;
     margin-top: 40px;
+    margin-left: 1%;
+
 }
 
-img {
+.bildgubbar {
     
     margin-left: 500px;
     border: 10px solid #28606B;
@@ -66,10 +68,10 @@ img {
 }
 
 .oss {
-    border: 10px solid #28606B;
+    border: 10px solid #050A30;
     border-radius: 20px;
     margin: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -81,13 +83,14 @@ img {
 .om-oss {
     text-align:center;
     font-size: 100px;
+    color: white;
     
 }
 
 .tech {
     font-size: 60px;
     text-align:center;
-    text-decoration: underline #28606B;
+    color: white;
 }
 
 /* beskivningar */
@@ -107,15 +110,22 @@ p {
 .rubrik-ägare {
     font-size: 60px;
     text-align:center;
-}
-
-ul {
-    border-bottom: 3px solid #28606B;
-    
+    font-weight: bold;
 }
 
 li {
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.bakgrund12 {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 1600px;
+    max-height:
 }
