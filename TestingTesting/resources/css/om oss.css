@@ -120,12 +120,14 @@ li {
     color: white;
 }
 
-
-
+.stor {
+    
+}
 .bakgrund12 {
     z-index: -1;
     position: absolute;
     width: 100%;
     height: 1600px;
-    max-height:
+    overflow-wrap: anywhere;
+
 }
