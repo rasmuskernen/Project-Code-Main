@@ -1,3 +1,4 @@
+
 /*Header*/
 header {
     font-family: Ubuntu;
@@ -36,98 +37,158 @@ header a:hover {
     height: 105px;
 }
 
-/* intro och första grejerna */
+
+/*intro*/
 body {
-    background-color: #050A30;
-    font-family: open-sans;
-    font-weight: bold;
+    background-image: linear-gradient(45deg,#0f0f3e, #101044, #1a0033, #26004d, #101044, #0f0f3e, #0a0a29);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
-
-.footer12 {
-    width:98%;
-    height: 80px;
-    border: 3px solid #050A30;
-    margin-bottom: 20px;
-    font-weight: 700;
+.om-oss-h {
     text-align: center;
-    font-size: 30px;
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 40px;
-    margin-left: 1%;
-
+    font-size: 32px;
+    font-style: italic;
+    color: #fff;
+    width: 40%;
+    margin: auto;
 }
 
-.bildgubbar {
+/*grid osv*/
+.container {
     
-    margin-left: 500px;
-    border: 10px solid #28606B;
-    border-radius: 20px;
-    
-    
-}
-
-.oss {
-    border: 10px solid #050A30;
-    border-radius: 20px;
-    margin: 20px;
-    margin-bottom: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    min-width: 450px;
-
-}
-
-.om-oss {
-    text-align:center;
-    font-size: 100px;
-    color: white;
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    margin: 100px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
     
 }
 
-.tech {
-    font-size: 60px;
-    text-align:center;
-    color: white;
+@media only screen and (max-width: 1020px) {
+    /* For mobile phones: */
+    .container{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .container .card {
+        margin: 0 auto;
+    } 
+    .om-oss-h {
+        width:80%;
+    }   
 }
 
-/* beskivningar */
- ul {
-    font-size: 30px;
-    margin-left: 400px;
-}
-p {
-    
-    text-align: center;  
+@media only screen and (max-width: 600px){
+.om-oss-h {
+    width:80%;
 }
 
-.befattning {
-    font-size: 30px;
+.container {
+    margin: 50px auto 0;
+}
 }
 
-.rubrik-ägare {
-    font-size: 60px;
-    text-align:center;
-    font-weight: bold;
+.container .card {
+    position: relative;
+    width: 300px;
+    height: 360px;
+    margin: 0 auto;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0,0,0,.2);
 }
 
-li {
-    text-align: center;
+.container .card .img-box {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
-    font-size: 50px;
-    color: white;
+    height: 100%;
+    transition: 0.5s;
 }
 
-.stor {
-    
+.container .card:hover .img-box{
+    opacity: 0.5;
 }
-.bakgrund12 {
-    z-index: -1;
+
+.container .card .content {
     position: absolute;
     width: 100%;
-    height: 1600px;
-    overflow-wrap: anywhere;
+    height: 43%;
+    bottom: -100%;
+    padding: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card:hover .content {
+    bottom: 0;
+}
 
+.container .card:nth-child(1) .content {
+    background: linear-gradient(0deg, #0931aa,transparent);
+}
+.container .card:nth-child(2) .content {
+    background: linear-gradient(0deg, #0931aa,transparent);
+}
+.container .card:nth-child(3) .content {
+    background: linear-gradient(0deg, #0931aa,transparent);
+}
+
+.container .card .content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #000000;
+}
+.container .card .content span {
+    color: #ffeb3b;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000000;
+}
+.container .card .content p {
+    margin-top: 15px ;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/*bilder*/
+
+.bild1{
+background-image: url(/Project-Code-Main/TestingTesting/resources/bilder/om\ oss\ card1.jpg);
+background-size: 200%;
+background-repeat: no-repeat;
+background-position: 40% ;
+}
+
+.bild2{
+background-image: url(/Project-Code-Main/TestingTesting/resources/bilder/om\ oss\ card2.jpg);
+background-repeat: no-repeat;
+background-position: center left;
+background-size: 120%;
+}
+
+.bild3{
+    background-image: url(/Project-Code-Main/TestingTesting/resources/bilder/om\ oss\ card3.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center left ;
 }
