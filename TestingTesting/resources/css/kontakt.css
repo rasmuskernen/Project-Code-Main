@@ -20,11 +20,6 @@ body {
     background: #ccc;
 }
 
-.wrapper {
-    display: grid;
-    grid-gap: 30px;
-}
-
 .box {
     display: grid;
     justify-items: center;
@@ -78,8 +73,6 @@ header a:hover {
     justify-content: center;
     max-width: 1500px;
     max-height: 600px;
-    grid-column: 1;
-    grid-row: 1;
     background: url(https://source.unsplash.com/random/1500x400);
     background-size: cover;
     background-position: center;
@@ -95,7 +88,7 @@ header a:hover {
 }
 
 /*Kontaktinfo*/
-/*Responsive*/
+/*Responsive Grid*/
 .h4 {
     color: #fff;
     font-size: 16px;
